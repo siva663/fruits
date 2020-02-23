@@ -1,0 +1,20 @@
+
+function validateform(){  
+ var email = document.myform.email.value;   
+var password = document.myform.pswd.value; 
+
+  
+if (email=="null"||email==""){  
+  alert("email can't be blank");  
+  return false;  
+}
+else if(password.length<8){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }
+	window.location.href="C:\Users\lenovo\Desktop\.index.html";
+}	
+	
+	
+	
+	
